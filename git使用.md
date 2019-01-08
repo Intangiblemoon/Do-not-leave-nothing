@@ -33,3 +33,14 @@
 >git push -u origin master
 
 提交本地改动至远端
+
+###删除git仓库中不应存在的文件
+
+删除git的.idea文件
+
+> git rm --cached -r .idea
+
+同步到远程仓库
+>git commit -m 'delete .idea'
+git push origin master
+
